@@ -1,0 +1,13 @@
+AllCops:
+  NewCops: enable
+
+Style/RescueModifier:
+  Exclude:
+    - 'simple_spider.rb'
+
+Style/Documentation:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Exclude:
+    - 'simple_spider.rb'
